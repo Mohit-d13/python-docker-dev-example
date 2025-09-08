@@ -32,7 +32,7 @@ app = FastAPI(lifespan=lifespan)
 
 @app.get("/")
 def hello() -> str:
-    return "Hello, Docker!"
+    return "Hello, Containerize Python Application!"
 
 
 @app.post("/heroes/")
